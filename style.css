@@ -25,22 +25,32 @@
   margin-left: 10px;
 }
 
-.blue {
+#color2 {
   background-color: blue;
 }
 
-.red {
+#color3 {
   background-color: red;
 }
 
-.yellow {
+#color4 {
   background-color: yellow;
 }
 
-.green {
-  background-color: green;
+#color1 {
+  background-color: black;
 }
 
-.black {
-  background-color: black;
+#pixel-board {
+  display: flex;
+  margin-left: 30px;
+  width: 250px;
+  flex-wrap: wrap;
+}
+
+.pixel {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  background-color: white;
 }
